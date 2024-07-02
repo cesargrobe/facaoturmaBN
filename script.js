@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:
+        enunciado: //[0]
             "Como as profissões do futuro podem promover a inclusão digital enquanto contribuem para soluções em face do aquecimento global?",
         alternativas: [
             "Com a evolução das profissões e a  inclusão digital ao desenvolver tecnologias acessíveis para comunidades remotas pode reduzir a dependência de combustíveis fósseis e mitigando os efeitos do aquecimento global.",
             "O pensamento evoluir faz-se crescer a buscar para soluções que levarão a evolução tanto da população quanto resolução de problemas complexos."]
     },
     {
-        enunciado: 
+        enunciado: //[1]
             "De que forma o Inclusão digital pode auxiliar na formação de novas  profissões que promovam um futuro mais sustentável?",
         alternativas: [
             "Acesso à Educação e Treinamento, empreendedorismo e inovação, Trabalho remoto e Freelance",
@@ -27,3 +27,13 @@ const perguntas = [
             "Eu acredito no aquecimento global e vou me focar em profissões tecnológicas que ajudem na mitigação!"]
     },
 ];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
