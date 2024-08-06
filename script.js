@@ -25,8 +25,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Acesso à Educação e Treinamento, empreendedorismo e inovação, Trabalho remoto e Freelance",
-                afirmacao: "Cursos online, tutoriais, impulsionam a inovação e a colaboração em prol de um futuro sustentável
-"
+                afirmacao: "Cursos online, tutoriais, impulsionam a inovação e a colaboração em prol de um futuro sustentável"
             },
             {
                 texto: "Acessibilidade com tecnologias assistivas, comunidades online, facilitando o acesso ao conhecimento"
@@ -64,6 +63,11 @@ function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", function(){
+            atual++;
+            mostraPergunta();
+        })
+
         caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
