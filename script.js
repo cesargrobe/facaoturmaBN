@@ -11,11 +11,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Com a evolução das profissões e a  inclusão digital ao desenvolver tecnologias acessíveis para comunidades remotas pode reduzir a dependência de combustíveis fósseis e mitigando os efeitos do aquecimento global.",
-                afirmação: "Quanto maior o acesso a tecnologia da população, maior será a probabilidade de desenvolvimento  da sociedade."
+                afirmacao: "Quanto maior o acesso a tecnologia da população, maior será a probabilidade de desenvolvimento  da sociedade."
             },
             {
                 texto:"O pensamento evoluir faz-se crescer a buscar para soluções que levarão a evolução tanto da população quanto resolução de problemas complexos.",
-                afirmação: "Com  a população crescendo e evoluindo se encontra soluções não vistas hoje sem existir as tecnologias e simples atualização e crescimento"
+                afirmacao: "Com  a população crescendo e evoluindo se encontra soluções não vistas hoje sem existir as tecnologias e simples atualização e crescimento"
             },
         ]
     },
@@ -25,12 +25,12 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Acesso à Educação e Treinamento, empreendedorismo e inovação, Trabalho remoto e Freelance",
-                afirmação: "Cursos online, tutoriais, impulsionam a inovação e a colaboração em prol de um futuro sustentável
+                afirmacao: "Cursos online, tutoriais, impulsionam a inovação e a colaboração em prol de um futuro sustentável
 "
             },
             {
                 texto: "Acessibilidade com tecnologias assistivas, comunidades online, facilitando o acesso ao conhecimento"
-                afirmação: "Aplicativos de reciclagem ajudam as pessoas e encontrar pontos de coleta."
+                afirmacao: "Aplicativos de reciclagem ajudam as pessoas e encontrar pontos de coleta."
             },
         ]
     },
@@ -40,11 +40,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Eu não acredito no aquecimento global é fake news! Eu me importo com uma profissão rentável!",
-                afirmação: "Com o avanço dos desastres naturais, condições básicas de existência se tornaram mais escassas (alimentos, água potável e saneamento)."
+                afirmacao: "Com o avanço dos desastres naturais, condições básicas de existência se tornaram mais escassas (alimentos, água potável e saneamento)."
             },
             {
                 texto: "Eu acredito no aquecimento global e vou me focar em profissões tecnológicas que ajudem na mitigação!",
-                afirmação: "Redução do surgimento de novas epidemias que tendem a surgir como consequênica do aquecimento global. Novos empregos surgem, novas possibilidades de trabalhos"
+                afirmacao: "Redução do surgimento de novas epidemias que tendem a surgir como consequênica do aquecimento global. Novos empregos surgem, novas possibilidades de trabalhos"
             }
         ]
     }
