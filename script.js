@@ -28,7 +28,7 @@ const perguntas = [
                 afirmacao: "Cursos online, tutoriais, impulsionam a inovação e a colaboração em prol de um futuro sustentável"
             },
             {
-                texto: "Acessibilidade com tecnologias assistivas, comunidades online, facilitando o acesso ao conhecimento"
+                texto: "Acessibilidade com tecnologias assistivas, comunidades online, facilitando o acesso ao conhecimento",
                 afirmacao: "Aplicativos de reciclagem ajudam as pessoas e encontrar pontos de coleta."
             },
         ]
