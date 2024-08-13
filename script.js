@@ -46,7 +46,7 @@ const perguntas = [
                 afirmacao: "Redução do surgimento de novas epidemias que tendem a surgir como consequênica do aquecimento global. Novos empregos surgem, novas possibilidades de trabalhos"
             }
         ]
-    }
+    },
 ];
 
 let atual = 0;
@@ -55,7 +55,7 @@ let perguntaAtual;
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
+    caixaAlternativas.textContent = perguntaAtual,enunciado;
     mostraAlternativas();
 }
 
