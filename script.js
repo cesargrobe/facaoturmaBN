@@ -54,8 +54,13 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta() {
+    if (atual >= perguntas.length){
+        mostraResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
@@ -70,9 +75,14 @@ function mostraAlternativas() {
 
 function respostaSelecionada(opcaoSelecionada){
     const afirmacao = opcaoSelecionada.afirmacao;
-    historiaFinal = afirmacao;
+    historiaFinal += afirmacao = " ";
     atual++;
     mostraPergunta();
 }
 
-mostraPergunta();
+function mostraResultado() {
+    caixaPerguntas.textContent= "Em 2045...";
+    caixaResultado.textContent= historiaFinal;
+    caixaAlternativas,textContent = "";
+}
+
